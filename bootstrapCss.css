@@ -1,0 +1,86 @@
+.navbar {
+  background-color: WhiteSmoke;
+  font-size: 15px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  height: 75px;
+}
+.logo{
+	padding-right: 2px;
+	padding-bottom: 10px;
+	margin-top: 0;
+}
+.brandName{
+	padding-top: 20px;
+	font-size: 36px;
+	font-family: impact;
+	color: #66cc26;
+	/*color: #28a745;*/
+}
+
+.container{
+	padding: 30px 200px;
+	background-color: White;
+}
+
+.thumbImg{
+	padding-top: 7px;
+	padding-bottom: 5px;
+	border-radius: 4px;
+}
+
+.cols{
+	width: 200px;
+	height: 200px;
+	background-color: #f1f1f1;
+
+}
+.cols:hover{
+	opacity: 0.5;
+}
+
+.col-border{
+	border-right: 2px solid LightGrey; 
+}
+
+.benefit{
+	font: bolder 25px Arial;
+	padding-bottom: 10px;
+	padding-top: 40px;
+}
+
+.benContent{
+	padding-top: 15px;
+	font-weight: bold;	
+	background-color: lightGrey;
+}
+
+.benContainer{
+	background-color: #f1f1f1;
+}
+
+.sliderImg{
+	height: 510px;
+}
+.carouselContent{
+	font-size: 20px;
+	font-family: Arial;
+	letter-spacing: 1.2px; 
+}
+
+.modal-header,.close{
+  background-color: #333;
+  color: #fff !important;
+ 
+}
+
+
+.modal-header{
+	text-align: center;
+ 	font-size: 30px;
+ 	text-decoration: none;
+ 	color: #fff !important;
+}
+.modal-header{
+	padding: 40px 50px;
+}

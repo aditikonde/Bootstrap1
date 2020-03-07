@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap trial 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrapCss.css">
+
+	<!-- Bootstrap css framework -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<!-- For Font Awesome icons ---->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" id="myPage" data-offset="50">
+	<nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"><img class="logo" src="flogo.png" width="55px" height="50px"><span class="brandName">rganic Basket</span> </a>
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#MyNav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse " id="MyNav">
+				<ul class=" navbar-nav ml-auto">
+					<li class="nav-item"><a href="#myPage" class="nav-link" >HOME</a></li>
+					<li class="nav-item"><a href="#brandPg" class="nav-link">BRAND</a></li>
+					<li class="nav-item"><a href="#benefitsPg" class="nav-link">BENEFITS</a></li>
+					<li class="nav-item"><a href="#productsPg" class="nav-link">PRODUCTS</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--   CAROUSEL  (SLIDER WITH THREE IMAGES AND CAPTION)   -->
+
+	<!-- <div class="container text-center"> -->
+	<div id="sliderC" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#sliderC" data-slide-to="0" class="active"></li>
+			<li data-target="#sliderC" data-slide-to="1"></li>
+			<li data-target="#sliderC" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="1.jpg" class="d-block w-100 sliderImg">
+				<div class="carousel-caption d-block">
+					<h3><strong>Organic: Way of Living</strong></h3>
+					<p class=" carouselContent"><em>Organic living is a lifestyle in a way that is healthy for you and the environment.</em></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="2.jpg" class="d-block w-100 sliderImg">
+				<div class="carousel-caption d-block">
+					<h3><strong>Heal yourself with organic</strong></h3>
+					<p class=" carouselContent" ><em>Organic Cures are a nice alternative to traditional medical attention.</em></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="3.jpeg"  class="d-block w-100 sliderImg">
+				<div class="carousel-caption d-block">
+					<h3><strong>Living the natural way</strong></h3>
+					<p class=" carouselContent"><em>Natural Living is making sure your food is healthy and NOT exposing yourself to toxic substances.</em></p>
+				</div>
+			</div>
+			<a href="#sliderC" class="carousel-control-prev" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a href="#sliderC" class="carousel-control-next" role="button" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</div>
+
+	<!----------  CONTENT  --------->
+
+	<div id="brandPg" class="benContent">
+		<div class="container text-center benContent">
+			<div class="content">
+				<h2><strong>Organic Basket</strong></h2>
+				<h3><em>A Step Towards Organic Living...</em></h3><br>
+				<p>The term “organic” refers to the way agricultural products are grown and processed. While the regulations vary from country to country, in the U.S., organic crops must be grown without the use of synthetic pesticides, bioengineered genes (GMOs), petroleum-based fertilizers, and sewage sludge-based fertilizers.</p>
+				<p>Organic livestock raised for meat, eggs, and dairy products must have access to the outdoors and be given organic feed. They may not be given antibiotics, growth hormones, or any animal by-products.</p>
+				<p>An organic lifestyle is a healthy lifestyle, which is why so many people around the world are choosing to go organic. And while it may seem like a more expensive way to live, going organic can actually save you money in the long run because of the exponential benefits it can have on the earth, your yard and your family.</p>
+			</div>
+		</div>
+	</div>
+
+	<!--------  BENEFITS OF ORGANIC (DATA-TOGGLE - COLLAPSE)  --->
+	<div id="benefitsPg" class="benContainer">
+	<div class="container text-center benContainer">
+		<div class="row ">
+			<div class="col-lg-4 col-border" >
+				<p class="benefit"><strong>GMO-Free</strong></p>
+				<a href="#benefit1" data-toggle="collapse"><img src="col1.png" class="cols benContainer"></a>
+				<div id="benefit1" class="collapse benContent">
+					<p><em>Genetically Modified Organisms (GMOs) or genetically engineered (GE) foods are plants whose DNA has been altered in ways that cannot occur in nature or in traditional crossbreeding, most commonly in order to be resistant to pesticides or produce an insecticide.</em></p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-border ">
+				<p class="benefit"><strong>Richer in Nutrients</strong></p>
+				<a href="#benefit2" data-toggle="collapse"><img src="col2.jpg" class="cols benContainer"></a>
+				<div id="benefit2" class="collapse benContent">
+					<p><em>Organic foods have a higher content of vitamins and minerals than do conventionally produced foods, thanks in large part to the nutrients and trace minerals found in nurtured, chemical-free soil. Also organically raised animals are NOT given antibiotics, growth hormones, or fed animal byproducts.</em></p>
+				</div>
+			</div>
+			<div class="col-lg-4 ">
+				<p class="benefit"><strong>Health to Nature</strong></p>
+				<a href="#benefit3" data-toggle="collapse"><img src="col3.png" class="cols benContainer"></a>
+				<div id="benefit3" class="collapse benContent">
+					<p><em>Organic farming practices reduce pollution, conserve water, reduce soil erosion, increase soil fertility, and use less energy. Farming without pesticides is also better for nearby birds and animals as well as people who live close to farms.Organic farming reduce soil erosion, conserve water and increase soil fertility. </em></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!---------  THUMBNAILS (SHOP PRODUCTS)  ------->
+
+	<div id="productsPg" class="bg-dark">
+		<div class="container bg-dark">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<div class="img-thumbnail" style="padding-bottom: 10px">
+						<img src="honey.jpg" class="thumbImg" width="320" height="300">
+						<h4><strong>Organic Honey</strong></h4>
+						<p>Without artifical sweetners<br>
+						Rs. 110/250gm </p>
+						<button class="btn btn-dark" data-toggle="modal" data-target="#myModal">Buy Now</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="img-thumbnail" style="padding-bottom: 10px">
+						<img src="coconutoil.jpg" class="thumbImg" width="320" height="300">
+						<h4><strong>Coconut Oil</strong></h4>
+						<p>ColdPress | Organic Coconut<br>
+						Rs. 150/500ml</p>
+						<button class="btn btn-dark" data-toggle="modal" data-target="#myModal">Buy Now</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="img-thumbnail" style="padding-bottom: 10px">
+						<img src="pulses.jpg" class="thumbImg" width="320" height="300">
+						<h4><strong>Pulses</strong></h4>
+						<p>No Pesticides Used<br>
+						Rs. 60/300gm </p>
+						<button class="btn btn-dark" data-toggle="modal" data-target="#myModal">Buy Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!------ MODAL ( FOR SHOPPING PRODUCTS) ------>
+	<div class="modal fade" role="dialog" id="myModal">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-header"><span class="fas fa-cart-arrow-down" style="padding-right: 10px"></span>Farmer's Basket </h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					
+				</div>
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="name"><span class="fa fa-user" style="padding-right: 5px"></span>Full Name</label>
+							<input type="text" class="form-control" id="name" placeholder="San paulo">
+						</div>
+						<div class="form-group">
+							<label for="address"><span class="fas fa-map-marker-alt" style="padding-right: 5px"></span>Address</label>
+							<input type="text" class="form-control" id="address" placeholder="8-Wall Street, New York, USA">
+						</div>
+						<div class="form-group">
+							<label for="quantity"><span class="fas fa-database" style="padding-right: 5px"></span>How Many ?</label>
+							<input type="number" class="form-control" id="quantity" placeholder="5">
+						</div>
+						<button type="submit" class="btn btn-block btn-dark"> Place Order</button>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<footer class="text-success text-center" style="background-color: lightGrey">
+	<a class="" href="myPage"><span class="fas fa-angle-up fa-3x" style="color:grey"></span></a>
+	<p style="font-weight: bold ">This was my first Bootstrap Project. Thanks to <a href="https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp#myPage" >www.w3schools.com !!</a></p>
+</footer>
+
+</body>
+</html>
+
